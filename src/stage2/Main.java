@@ -28,7 +28,6 @@ public class Main {
     public static void takeInput() {
         Scanner scanner = new Scanner(System.in);
 
-        ;
         char[] secretChar = secretNumber.toCharArray();
         String inputNumber = scanner.next();
         char[] numChar = inputNumber.toCharArray();
